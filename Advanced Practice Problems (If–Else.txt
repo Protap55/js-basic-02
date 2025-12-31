@@ -1,0 +1,206 @@
+Advanced Practice Problems (If–Else & Ternary)
+Problem 1: Smart Ticket Pricing System
+
+তোমাকে একটি ticket system বানাতে হবে।
+
+Given
+
+basePrice = 1200
+
+age
+
+isStudent (true/false)
+
+isVIP (true/false)
+
+Rules
+
+Age < 8 → Free ticket
+
+Age ≥ 60 → 40% discount
+
+Student → 30% discount
+
+VIP → extra 20% discount (সব discount এর পরে)
+
+একাধিক discount থাকলে priority অনুযায়ী apply করতে হবে
+
+👉 Final payable amount print করো।
+
+Problem 2: Employee Salary Evaluation
+
+একজন employee-এর salary status নির্ধারণ করো।
+
+Given
+
+salary
+
+experience (years)
+
+performanceRating (1–5)
+
+Conditions
+
+Salary < 20k → "Low Salary"
+
+Salary 20k–40k → "Medium Salary"
+
+Salary > 40k → "High Salary"
+
+Bonus Rules
+
+Experience ≥ 5 AND rating ≥ 4 → bonus 20%
+
+Experience ≥ 2 AND rating ≥ 3 → bonus 10%
+
+Otherwise → no bonus
+
+👉 Final salary + category দেখাও।
+
+Problem 3: Online Exam Result Processor
+
+একজন student-এর result evaluate করো।
+
+Given
+
+marks
+
+attendancePercentage
+
+hasCheated (true/false)
+
+Rules
+
+Cheated করলে → "Disqualified"
+
+Attendance < 75 → "Not Eligible"
+
+Marks ≥ 80 → "A+"
+
+Marks ≥ 70 → "A"
+
+Marks ≥ 60 → "B"
+
+Else → "Fail"
+
+👉 Final result print করো।
+
+Problem 4: Smart Login Access Control
+
+একটা secure login system বানাও।
+
+Given
+
+isLoggedIn
+
+role → "admin" | "manager" | "user"
+
+accountActive (true/false)
+
+Rules
+
+Logged in না থাকলে → "Please Login"
+
+Account inactive হলে → "Account Suspended"
+
+Admin → "Full Access"
+
+Manager → "Limited Access"
+
+User → "Basic Access"
+
+👉 Access message print করো।
+
+Problem 5: Electricity Bill Calculator
+
+Electricity bill হিসাব করো।
+
+Given
+
+unitsConsumed
+
+hasSolar (true/false)
+
+Rates
+
+First 100 units → 5 tk/unit
+
+Next 200 units → 7 tk/unit
+
+Above 300 → 10 tk/unit
+
+Discount
+
+Solar user → 15% discount
+
+👉 Final bill amount print করো।
+
+Problem 6: E-commerce Order Status Engine
+
+Order-এর status নির্ধারণ করো।
+
+Given
+
+orderAmount
+
+paymentDone
+
+isDelivered
+
+Rules
+
+Payment না হলে → "Pending Payment"
+
+Payment done কিন্তু delivered না → "Processing"
+
+Delivered হলে:
+
+Amount ≥ 5000 → "Delivered (Premium Order)"
+
+Else → "Delivered"
+
+👉 Final order status দেখাও।
+
+Problem 7: Smart Grading with Ternary Only (Challenge 🔥)
+
+⚠️ শুধু ternary operator ব্যবহার করা যাবে
+
+Given
+
+score
+
+Output
+
+≥ 90 → "Excellent"
+
+≥ 75 → "Very Good"
+
+≥ 60 → "Good"
+
+≥ 40 → "Average"
+
+Else → "Poor"
+
+Problem 8: Bank Loan Eligibility System
+
+Loan approve হবে কিনা চেক করো।
+
+Given
+
+monthlyIncome
+
+creditScore
+
+hasExistingLoan
+
+Rules
+
+Income < 30k → Rejected
+
+Credit score < 650 → Rejected
+
+Existing loan থাকলে → Manual Review
+
+Otherwise → Approved
+
+👉 Final decision print করো।
